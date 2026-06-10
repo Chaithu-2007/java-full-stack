@@ -7,7 +7,7 @@ nav{
 }
 .meet{
     flex-direction: column;
-    list-style: square;
+    list-style: squcare;
 }
 ul{
     display: flex;
