@@ -139,6 +139,27 @@
       backdrop-filter: blur(8px);
     }
 
+    .photo-wrap {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .photo-frame {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid var(--accent);
+      box-shadow: 0 8px 20px rgba(46,230,214,.25);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .profile-card h3 {
       margin-top: 0;
       font-size: 1.2rem;
@@ -261,6 +282,11 @@
         </div>
 
         <div class="profile-card">
+          <div class="photo-wrap">
+            <div class="photo-frame">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" alt="Chaithanya portrait" />
+            </div>
+          </div>
           <h3>Quick Profile</h3>
           <ul class="info-list">
             <li><strong>Name</strong><span>Chaithanya</span></li>
