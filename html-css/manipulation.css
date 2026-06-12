@@ -1,6 +1,8 @@
 img{
     width: 200px;
     height: 200px;
+    align-items: center;
+    
     
 }
 body{
@@ -13,4 +15,5 @@ content{
 h1{
     color: green;
     font-size: 20px;
+    align-items: center;
 }

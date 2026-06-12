@@ -1,2 +1,10 @@
-console.log("happy birthday");
-alert("happy birthday❤️🎂");
+let value=document.getElementById("wish").innerText;
+console.log(value);
+let value1=document.getElementsByClassName("wishes");
+console.log(value1);
+let value2=document.getElementsByTagName("hi");
+console.log(value2);
+let value3=document.querySelector(".content");
+console.log(value3);
+let value4=document.querySelectorAll(".content");
+console.log(value4);
