@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+}
+
+/* RESULT LAYOUT */
+.result-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* controls space between text and image */
+    margin-left: 20px;
+}
+
+/* LEFT SIDE TEXT */
+.details {
+    width: 60%;
+    font-size: 18px;
+}
+
+/* RIGHT SIDE IMAGE */
+.photo {
+    width: 35%;
+    text-align: center;
+}
+
+.photo img {
+    border: 2px solid black;
+}
+
+/* spacing */
+p {
+    margin: 8px 0;
+}
