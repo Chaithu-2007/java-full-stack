@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+    background:lightblue;
+    color:violet;
+}
+
+canvas{
+    background:pink;
+    border:4px solid blueviolet;
+    margin-top:20px;
+}
+
+.controls{
+    margin:15px 0;
+}
+
+.controls button{
+    padding:10px 16px;
+    margin:0 8px;
+    border:none;
+    border-radius:6px;
+    background:#6a5acd;
+    color:white;
+    cursor:pointer;
+}
+
+.controls button:hover{
+    background:#4b3fa2;
+}
