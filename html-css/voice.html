@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1 id="del" >Star</h1>
+    <p id="p1">Chaithanya</p>
+    <ul id="list">
+        <li id="DS" >Demon Slayer</li>
+        <li id="One" >One piece</li>
+        <li id="DN">DeathNote</li>
+    </ul>
+    <script>
+        let p=document.createElement("p");
+        p.innerText="Arjun Das";
+        console.log(p);
+        document.body.appendChild(p);
+        document.getElementById("del").remove();
+        let rename=document.createElement("p");
+        rename.innerText="Ammu";
+        let name=document.getElementById("p1");
+        document.getElementById("body").replaceChild(rename,name);
+        let Naruto = document.createElement("li");
+        Naruto.innerText="Naruto";
+        let One_piece = document.getElementById("One");
+        document.getElementById("list").insertBefore(Naruto,One_piece);
+        let bleach = document.createElement("li");
+        bleach.innerText="Bleach";
+        document.getElementById("One").after(bleach);
+        let Spy=document.createElement("li");
+        Spy.innerText="Spy Family";
+        document.getElementById("DN").before(Spy);
+    </script>
+</body>
+</html>
